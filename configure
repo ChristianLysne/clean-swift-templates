@@ -29,13 +29,6 @@ intFile="___FILEBASENAME___Interactor.swift"
 cp Clean\ Swift/$int/$intFile Clean\ Swift/Scene.xctemplate/$view
 cp Clean\ Swift/$int/$intFile Clean\ Swift/Scene.xctemplate/$table
 cp Clean\ Swift/$int/$intFile Clean\ Swift/Scene.xctemplate/$collection
-
-## Models.xctemplate
-model="Models.xctemplate"
-modelFile="___FILEBASENAME___Models.swift"
-cp Clean\ Swift/$model/$modelFile Clean\ Swift/Scene.xctemplate/$view
-cp Clean\ Swift/$model/$modelFile Clean\ Swift/Scene.xctemplate/$table
-cp Clean\ Swift/$model/$modelFile Clean\ Swift/Scene.xctemplate/$collection
  
 ## Presenter.xctemplate
 pres="Presenter.xctemplate"

@@ -29,4 +29,6 @@ class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___In
     var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput!
     
     // MARK: Business logic
+    
+
 }

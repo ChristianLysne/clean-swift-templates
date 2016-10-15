@@ -104,20 +104,6 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___Models</string>
-			<key>Description</key>
-			<string>The model file name</string>
-			<key>Identifier</key>
-			<string>modelFileName</string>
-			<key>Name</key>
-			<string>Model File Name:</string>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
 			<string>UIViewController</string>
 			<key>Description</key>
 			<string>What view controller class to subclass for the new scene</string>
@@ -146,7 +132,7 @@
 		<string>com.apple.platform.iphoneos</string>
 	</array>
 	<key>SortOrder</key>
-	<string>9</string>
+	<string>8</string>
 	<key>Summary</key>
 	<string>This generates a new scene using Uncle Bob&apos;s clean architecture.</string>
 </dict>

@@ -21,4 +21,5 @@ class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___Pre
     weak var output: ___FILEBASENAMEASIDENTIFIER___PresenterOutput!
     
     // MARK: Presentation logic
+    
 }
