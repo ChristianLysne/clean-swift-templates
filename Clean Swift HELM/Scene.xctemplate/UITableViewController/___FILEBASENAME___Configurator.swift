@@ -18,20 +18,19 @@ extension ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER_
 extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
 }
 
-class ___FILEBASENAMEASIDENTIFIER___Configurator {
+extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___PresenterOutput {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        router.passDataToNextScene(segue: segue)
+    }
+}
+
+struct ___FILEBASENAMEASIDENTIFIER___Configurator {
     // MARK: Object lifecycle
     
-    class var sharedInstance: ___FILEBASENAMEASIDENTIFIER___Configurator {
-        struct Static {
-            static var instance: ___FILEBASENAMEASIDENTIFIER___Configurator?
-            static var token: dispatch_once_t = 0
-        }
-        
-        dispatch_once(&Static.token) {
-            Static.instance = ___FILEBASENAMEASIDENTIFIER___Configurator()
-        }
-        
-        return Static.instance!
+    static let sharedInstance = ___FILEBASENAMEASIDENTIFIER___Configurator()
+    
+    private init() {
+        // Enforce Singleton
     }
     
     // MARK: Configuration
