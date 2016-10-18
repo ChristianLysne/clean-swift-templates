@@ -12,11 +12,11 @@ protocol ___FILEBASENAMEASIDENTIFIER___RouterInput {
     
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___RouterDataSource:class {
+protocol ___FILEBASENAMEASIDENTIFIER___RouterDataSource: class {
     
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___RouterDataDestination:class {
+protocol ___FILEBASENAMEASIDENTIFIER___RouterDataDestination: class {
     
 }
 
@@ -27,8 +27,8 @@ class ___FILEBASENAMEASIDENTIFIER___Router: ___FILEBASENAMEASIDENTIFIER___Router
     weak var dataDestination: ___FILEBASENAMEASIDENTIFIER___RouterDataDestination!
     
     init(viewController: ___FILEBASENAMEASIDENTIFIER___ViewController,
-         dataSource:___FILEBASENAMEASIDENTIFIER___RouterDataSource,
-         dataDestination:___FILEBASENAMEASIDENTIFIER___RouterDataDestination) {
+         dataSource: ___FILEBASENAMEASIDENTIFIER___RouterDataSource,
+         dataDestination: ___FILEBASENAMEASIDENTIFIER___RouterDataDestination) {
         self.viewController = viewController
         self.dataSource = dataSource
         self.dataDestination = dataDestination
